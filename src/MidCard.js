@@ -19,7 +19,7 @@ function LeftCard(props) {
             filter: "grayscale(" + props.data.imgGrayScale + ")",
             transition: props.data.imgTransition
           }}
-          src="/images/activity/coding.png"
+          src={"/images/activity/" + props.cardData.aKV}
           alt="hotactivity_MainKV"
         />
 
@@ -30,7 +30,7 @@ function LeftCard(props) {
           }}
           className="aSideCarouselInfo position-absolute"
         >
-          <Card.Title className="m-0">Card Title</Card.Title>
+          <Card.Title className="m-0">{props.cardData.aName}</Card.Title>
         </div>
       </div>
     </>
