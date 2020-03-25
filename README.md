@@ -1,3 +1,8 @@
+# You can see this demo at:
+https://easonliu0913.github.io/reactCarousel/build/index.html  
+<br/>   
+<br/>  
+  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
